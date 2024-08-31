@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+  }
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    
+    
+}
+body::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("https://img.freepik.com/premium-photo/online-fashion-store-online-shopping-branding-pastel-beige-stylish-scandinavian-newborn-baby-care-accessories-muslin-bib-brush-pacifier-socks-bow-pacifier-holder-blank-copy-space-mockup-frame_408798-10937.jpg"), #000;
+    background-position: center;
+    background-size: cover;
+  }
+
+.container{
+
+    width: 400px;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    
+
+}
+.Registration{
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+    text-align: center;
+    border-bottom:2px groove rgb(255, 255, 255);
+    color: aliceblue;
+    
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+  }
+
+form .container2 {
+    width:200px;
+    display:flex;
+    color: azure;
+    
+    
+}
+form .container-signin {
+    color: #fff;
+    text-align: center;
+    background: transparent;
+    padding:10px;
+
+    
+    
+}
+form .container2 .inputbox{
+
+    position: relative;
+    border-bottom: 2px solid #ccc;
+    margin: 15px 0;
+}
+form .container2 .inputbox input{
+    height:25px;
+    width: 100%;
+    border:none;
+    border-bottom: black;
+    background:transparent;
+}
+form .container2 .inputbox label{
+    color: #fff;
+    font-size: 16px;
+}
+.forget label {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.forget label p {
+    margin-left: 8px;
+}
+
+button {
+    background: #fff;
+    color: #000;
+    font-weight: 600;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    transition: 0.3s ease;
+}
